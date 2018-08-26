@@ -47,11 +47,11 @@ function get_node_pos(pos, node_pos, param2)
     end
         
     if param2 == 2 then
-        return {x=pos.x, y=pos.y-node_pos.y, z=pos.z+node_pos.x}
+        return {x=pos.x, y=pos.y-node_pos.y, z=pos.z-node_pos.x}
     end
     
     if param2 == 3 then
-        return {x=pos.x, y=pos.y-node_pos.y, z=pos.z-node_pos.x}
+        return {x=pos.x, y=pos.y-node_pos.y, z=pos.z+node_pos.x}
     end
     
     if param2 == 4 then
